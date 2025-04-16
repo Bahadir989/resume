@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #807180;
+    background-image: 
+      radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 1px),
+      radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 1px);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #40E0D0, #20B2AA);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    color: #777;
+    font-size: 18px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .skill {
+    margin: 10px 0;
+  }
+  
+  .skill .bar {
+    height: 10px;
+    background: #007bff;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button#themeToggle {
+    padding: 8px 16px;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .container {
+    background: #2b2b2b;
+  }
+  
+  body.dark-mode .skill .bar {
+    background: #00bfff;
+  }
+  
